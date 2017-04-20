@@ -1,0 +1,17 @@
+CREATE DATABASE emails
+use emails;
+CREATE TABLE emails (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  email varchar(100),
+  PRIMARY KEY (id)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+INSERT INTO emails (id, email) VALUES
+(1, 'me@me.com')
+
+
+
+use emails;
+TRUNCATE emails;
+SET AUTOCOMMIT = 1 ;
+select  * from emails;

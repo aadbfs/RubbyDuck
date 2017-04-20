@@ -1,0 +1,146 @@
+﻿
+
+body {
+  overflow-x: hidden;
+}
+
+.btn-default, .btn, 
+.btn-default:focus, .btn:focus {
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  color: #000;
+  font-size: 1em;
+}
+
+.btn-default:hover, .btn:hover {
+  box-shadow: none;
+  color: #fff;
+}
+
+.container {
+  padding-bottom: 80px;
+}
+
+.row > h2 {
+  padding-bottom: 20px;
+}
+
+#jumbhelp {
+    background-color: #fff;
+}
+
+.test2 {
+    position: absolute;
+    height: auto;
+    width: 90%;
+    border-radius: 50%;
+}
+
+
+
+.container {
+  padding-top: 60px;
+}
+
+#home nav {
+  box-shadow: none;
+  z-index: 9999;
+}
+
+#home nav a {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  line-height: 42px;
+  padding: 3px 8px;
+  font-size: 1em;
+  letter-spacing: 0.1px;
+  border: none;
+  font-weight: normal;
+}
+
+#home nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#home nav li {
+  margin: 0px 2px;
+}
+
+#home .before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('assets/RD1.jpeg') center fixed;
+    background-size: cover;
+    z-index: 0;
+
+}
+
+#home-content {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+#home-content .cover-container {
+  z-index: 10;
+}
+
+#home-text {
+  width: 80%;
+  margin: 0 10%;
+}
+
+#home-text p {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+
+
+#cover-heading {
+  font-size: 10rem;
+  line-height: 0.85em;
+  font-family: 'Open Sans', 'Crimson Text', 'Lucia Grande', 'Source Sans Pro', Avenir, Roboto;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  margin-bottom: 0.2em;
+
+}
+
+
+
+p {
+    margin-bottom: 30px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+a:focus {outline:0 !important;}
+
+
+#home-text-wrapper {
+  width: 100%;
+}
+
+#map {
+    position: absolute;
+    height: 75%;
+    width: 90%;
+    border-style: inset;
+}
+

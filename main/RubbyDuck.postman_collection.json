@@ -1,0 +1,54 @@
+{
+	"id": "a91003de-121e-a551-8b3c-fb13cbac1c09",
+	"name": "RubbyDuck",
+	"description": "",
+	"order": [
+		"7f6a023a-dcfb-fb3f-d7c2-970341e84985",
+		"3f50aace-b431-c021-04fd-497406a910c0"
+	],
+	"folders": [],
+	"timestamp": 1492494407590,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3f50aace-b431-c021-04fd-497406a910c0",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:3100/api/emails",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492666425437,
+			"name": "Post Emails",
+			"description": "",
+			"collectionId": "a91003de-121e-a551-8b3c-fb13cbac1c09",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"alexSilva@gmail.com\"\n}"
+		},
+		{
+			"id": "7f6a023a-dcfb-fb3f-d7c2-970341e84985",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:3100/api/emails",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492666409258,
+			"name": "Get Emails",
+			"description": "",
+			"collectionId": "a91003de-121e-a551-8b3c-fb13cbac1c09",
+			"responses": []
+		}
+	]
+}
